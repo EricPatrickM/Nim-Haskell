@@ -1,0 +1,10 @@
+Correção de erros no texto:
+
+O jogo possui 6 funções:
+
+1- Asterisco: Essa função apenas recebe um parâmetro N e escreve N asteriscos.
+2- Imprimir: Essa função apenas percorre a lista chamando a função Asterisco para todos os elementos da lista.
+3- Filtro: Essa função garante que o usuário não coloque inputs inválidos, como tentar remover mais de 3 asteriscos por vez, acessar um índice inválido ou remover mais asteriscos do que a lista tem.
+4- Remover: Essa função remove um valor N de um índice K da lista e retorna uma nova lista.
+5- Criterio: Essa funcao apenas analisa o criterio de parada(vitoria) do jogo.
+6- Loop: Essa função controla o jogo, ela chamará o imprimir para mostrar o tabuleiro para o jogador, receberá os inputs, usará o filtro (repetirá a jogada do mesmo jogador caso o input sejam invalidos), verificará o critério de vitória (dando a vitória para o jogador 1 ou 2 ou repetindo caso o critério não seja atendido) e sempre controlando qual jogador irá jogar(passado por parametro).
